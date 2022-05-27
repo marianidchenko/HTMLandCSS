@@ -1,0 +1,12 @@
+&copy; Copyright 2021 Christina 
+
+Use the texts from the file site-texts.txt.
+Create two files: simple-website.html and simple-website.css.
+Requirements
+Use the HTML and CSS from previous two problems
+<footer> tag
+Background color: #444;
+<p> tag for text
+Text Color: #fff;
+Center the text
+Padding: 10px

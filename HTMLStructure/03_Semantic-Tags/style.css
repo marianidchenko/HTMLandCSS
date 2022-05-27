@@ -1,0 +1,14 @@
+.site-header {
+    background-color: #f2dcbb;
+    padding: 15px 5px 15px;
+}
+
+.site-footer {
+    background-color: #f2dcbb;
+    padding: 15px 5px 15px;
+}
+
+body {
+    background-color: #f9f7cf;
+    width: 480px;
+}

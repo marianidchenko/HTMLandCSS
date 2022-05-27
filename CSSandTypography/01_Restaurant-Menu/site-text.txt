@@ -1,0 +1,31 @@
+New Restaurant Menu
+
+On average, guests will only look at a menu for 109 seconds.
+
+Restaurant menu design is part science, part creativity. A well-planned menu design is key to providing the best experience for them and the best sales for you. Let's talk about what takes a menu from good to great.
+
+HTML with <body> that contains: <article>, <h1>, <span> and <p>.
+CSS:
+<body>:
+Align the text to the center
+<h1>:
+Fonts: Sentinel A, Sentinel B, Georgia, Times New Roman, Times
+Generic Font: serif
+Font weight 400
+Height of the line: 1.15
+Text color: #747474
+<span>:
+Fonts: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial
+Generic Font: sans-serif
+Font style: oblique
+Font weight: 600
+Font size: 16px
+Height of the line: 1.46
+Text color: #5c5a5a
+<p>:
+Fonts: Graphik Regular Web, Helvetica Neue, Helvetica, Arial
+Generic Font: sans-serif
+Font weight 400
+Font size: 16px
+Height of the line: 1.46
+Text color: #5c5a5a
