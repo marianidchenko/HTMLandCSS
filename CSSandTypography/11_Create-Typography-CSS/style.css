@@ -1,0 +1,68 @@
+
+/* Use Helvetica, sans-serif font-family for the document
+Make the font-size 16px
+Change the line-height to 1.5
+Use Georgia, serif font-family for the headings
+Use headings from h1 to h6
+Create a HTML table and style it
+Use blockquote tag
+Style its left border with rgb(221,221,221) color
+Style its font to italic
+Use hr tag for the horizontal lines */
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 70px
+}
+
+h1 { 
+    font-family: Georgia, serif;
+}
+h2 { 
+    font-family: Georgia, serif;
+}
+h3 { 
+    font-family: Georgia, serif;
+}
+h4 { 
+    font-family: Georgia, serif;
+}
+h5 { 
+    font-family: Georgia, serif;
+}
+h6 { 
+    font-family: Georgia, serif;
+}
+
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    padding-left: 30px;
+    height: 120px;
+    font-style: italic;
+}
+
+figcaption { 
+    text-align: right;
+    
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th { 
+    background-color: lightgray;
+    border: 2px solid lightgray;
+}
+
+td { 
+    border: 2px solid lightgray;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(225, 225, 225);
+}
