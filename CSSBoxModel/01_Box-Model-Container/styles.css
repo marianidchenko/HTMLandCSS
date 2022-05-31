@@ -1,1 +1,25 @@
-/* TODO: style the html */
+/* Width: 300px
+Paddings: 20px
+Auto margins 
+Background color: #0F4069
+Text color: whitesmoke
+Solid border with size 2px and color #e6eaef
+Top left and bottom right border radius: 15px
+Top right and bottom left border radius: 50px */
+
+body {
+  background-color: lightslategray;
+}
+
+p {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: #0F4069;
+    color: whitesmoke;
+    border: 2px solid #e6eaef;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px; 
+}
