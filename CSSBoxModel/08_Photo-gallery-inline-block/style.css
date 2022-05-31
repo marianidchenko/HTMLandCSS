@@ -1,0 +1,46 @@
+/* <body>
+Padding: 5rem
+Background color: #eee
+.gallery
+Width: 100%
+Margin: 0 auto
+Align the text to the center
+li
+Width: 18rem
+Display the list as inline-block
+Background color: #fff
+Solid border with size 0.4rem and color #000
+Padding: 1rem
+Vertical align: middle
+Margin: 0.5rem
+img
+display: block
+width: 100%
+height: auto */
+
+body {
+    padding: 5rem;
+    background-color: #eee;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul li {
+    width: 18rem;
+    display: inline-block;
+    background-color: #fff;
+    border: solid 0.4rem #000;
+    padding: 1rem;
+    vertical-align: middle;
+    margin: 0.5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
