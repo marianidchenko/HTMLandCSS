@@ -1,1 +1,14 @@
-//TODO
+/* <h1>
+Absolute position
+Top coordinates: 60px
+Left coordinates: 180px
+Text color: antiquewhite
+text-shadow: 1px 1px 20px black; */
+
+h1 {
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}
