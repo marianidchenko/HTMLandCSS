@@ -11,3 +11,17 @@ In Progress: 1
 Done: 2
 
 &copy 2021 - Task Board
+
+<main> tag that contain:
+<h1> text title for the tasks
+<ul> tag with:
+<li> for the tasks with their status
+<footer> tag that contain:
+<div> with copyright sign and text
+CSS Grid
+In the styles.css: 
+Make the body grid container by displaying the grid.
+Define two grid columns and their size. 100px for the first column and auto for the second. 
+Define the grid areas: header, main, aside, footer.
+Reference the grid areas: "header header", "aside main", "footer footer".
+Set gap: 10px.
