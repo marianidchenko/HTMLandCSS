@@ -1,0 +1,60 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+section.card {
+  display: block;
+  position: absolute;
+  width: 200px;
+  left: 35%;
+  box-shadow: 0px 8px 18px 5px rgba(0,0,0,0.12);
+}
+
+section img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+section.card1 {
+    top: 30%;
+
+}
+
+section.card2 {
+    top: 4%;
+}
+
+.viewport-cool {
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 330px; 
+  background: rgb(45, 138, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 138, 247, 1) 0%,
+    rgba(41, 255, 198, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.viewport-warm {
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 330px; 
+  background: rgb(247, 45, 168);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 45, 168, 1) 0%,
+    rgba(255, 193, 48, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  top: 330px;
+}
+
+i {
+    position: absolute;
+    bottom: 10px;
+    left: 88%;
+    color: white;
+}
