@@ -1,0 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/* <!-- All you need for your HTML are ul, li and a tags
+Change the ul display property to inline-block
+Remove list items default style
+Each a tag must have border-radius: 50%;
+Check the provided screenshots to see the hover effects --> */
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  border-radius: 50%;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 3px;
+}
+
+i {
+  color: black;
+}
+
+i.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+i.fa-twitter:hover {
+    color: #00aced;
+}
+
+i.fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+i.fa-linkedin:hover {
+    color: #007bb6;
+}
+
+i.fa-instagram:hover {
+    color: #70a4c7;
+}
