@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  display: flex;
+}
+
+span {
+  padding: 15px 0;
+  flex-grow: 3;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px 15px;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
+  padding: 15px 30px;
+}
