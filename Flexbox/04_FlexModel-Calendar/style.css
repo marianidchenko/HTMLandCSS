@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    text-align: center;
+    height:60vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border: 1px solid black;
+}
+
+section.notes { 
+    flex-direction: column;
+    height: 100%
+}
+
+section.notes span {
+    flex-grow: 1;
+    width: 100%;
+}
+
+section.week { 
+    flex-wrap: wrap;
+    height: 100%
+}
+
+section.week .marker { 
+    width: 100%;
+    height: 24%;
+}
+
+section.week .day { 
+    flex-grow: 1;
+    height: 25%;
+}
