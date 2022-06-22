@@ -1,0 +1,55 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+body{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(244, 244, 244);
+    padding: 10px 20px;
+    margin: 30px;
+}
+
+.container .login-title {
+    border: 1px solid black;
+    padding: 8px 60px  8px 8px;
+}
+
+.container div {
+    position: relative;
+}
+
+
+.container p {
+    font-weight: 700;
+    flex-basis: 40%;
+}
+
+.container input {
+    padding:  6px  60px  6px 30px;
+    margin-left: 10px;
+    flex-basis: 40%;
+}
+
+.container i {
+    position: absolute;
+    padding: 8px 18px;
+}
+
+.container button {
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color:rgb(233, 233, 233)
+}
+
+input:focus + i{
+    color:gray
+}
