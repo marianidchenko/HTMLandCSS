@@ -1,0 +1,133 @@
+/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .navbar-brand {
+    margin-right: 0px;
+  }
+
+  /* Hero section */
+  .hero {
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin-top: 70px;
+  }
+
+  .hero .hero-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .hero .hero-btns a {
+    width: 60%;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  /* About us section */
+
+  #about-us .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-us .row .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  #about-us .service-txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-us .hero-btns.service-btn {
+    margin-top: 70px;
+    margin-bottom: 80px;
+  }
+
+  #about-us .hero-btns.service-btn {
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 0;
+  }
+
+  #about-us .hero-btns.service-btn a{
+    width: 100%;
+  }
+
+  #about-us .col-sm-6 {
+    max-width: 75%;
+  }
+
+  /* About section */
+  .about {
+    margin-bottom: 70px;
+  }
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about .container .col-sm-12 {
+    margin-top: 80px;
+  }
+
+  /* Contact-us  */
+  #contact-us .container .row .col-12 {
+    text-align: center;
+  }
+
+  #contact-us .container .hero-btns.contact-btn {
+    display: none;
+  }
+
+  /* Footer */
+  footer .container .row .col-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  footer .container .row .col-12 h6 {
+    padding-bottom: 10px
+  }
+
+  footer .container .contact-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
