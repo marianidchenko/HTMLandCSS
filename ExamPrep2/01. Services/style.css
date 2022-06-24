@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+:root {
+    --color-green: #a4c539;
+    --color-light-gray: #f7f7f7;
+    --color-dark-grey: #1f1f1f;
+    --color-medium-gray: #666666;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-dark-grey)
+}
+
+.header {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.header .title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.header .title highlight{
+    color: var(--color-green)
+}
+
+.header .description {
+    color: var(--color-medium-gray);
+    font-weight: 400;
+    font-size: 12px;
+    margin: 6px;
+    letter-spacing: 0.5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .articles {
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light-gray);
+    border-radius: 1px;
+}
+
+.card .info {
+    padding: 20px;
+}
+
+.card .info__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card .info__description {
+    font-size: 10px;
+    color: var(--color-medium-gray);
+    margin: 12px 0;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+.card .info__btn {
+    background-color: var(--color-green);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 22px;
+}
