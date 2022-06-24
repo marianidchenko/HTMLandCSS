@@ -1,1 +1,41 @@
 /* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    .row.tm-header-inner {
+        padding: 40px 15px;
+        flex-direction: column;
+    }
+    article.col-md-6.col-12 {
+        margin-right: 0;
+    }
+
+    nav.tm-nav{
+        float: right;
+    }
+
+
+    header.row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2.col-12.text-center.tm-section-title{
+        margin-left: 0;
+    }
+
+    .row.tm-gallery{
+        align-items: center;
+        justify-content: center;
+    }
+    div#tm-gallery-page-pizza {
+        margin: 0px;
+    }
+
+
+    .tm-cta-section.tm-section.tm-container-inner{
+        width: 98vw;
+    }
+    
+    article.tm-description-box {
+        padding: 0;
+    }
+}
