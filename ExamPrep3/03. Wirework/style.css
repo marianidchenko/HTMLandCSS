@@ -1,0 +1,194 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+:root {
+    --clr-orange: #e24e2a;
+    --clr-dark-gray: #383838;
+    --clr-light-gray: #ececec;
+    --clr-gray-text: #524f4a;
+    --clr-light-gray-text: #66655e;
+    --clr-green: #1b9772;
+    --clr-orange-text: #f5c0ab;
+}
+
+html {
+    max-width: 1280px;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo .vertical-line {
+    padding: 20px 10px;
+    border-right: 1px solid var(--clr-gray-text);
+    margin-right: 20px;
+}
+
+.header .logo .logo__description {
+    color: var(--clr-gray-text)
+}
+
+.header .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.header .menu .menu_btn {
+    text-decoration: none;
+    padding: 20px 22px;
+    background-color: var(--clr-light-gray);
+    color: #383838;
+}
+
+.header .menu .menu_btn.home_btn {
+    color: #fff;
+    background-color: var(--clr-orange)
+}
+
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-1 .banner img{
+    object-fit: cover;
+    width: 1280px;
+    height: 450px;
+}
+
+#section-1 .banner__description{
+    text-align: center;
+    padding: 40px 140px;
+    background-color: var(--clr-orange);
+    color: var(--clr-orange-text);
+    font-size: 15px;
+}
+
+
+
+#section-1 .banner__description u{
+    color: #fff;
+
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    color: #fff;
+    background-color: var(--clr-dark-gray);
+    padding: 70px 38px;
+}
+
+#section-2 .service i{
+    padding: 22px;
+    font-size: 50px;
+    background-color: var(--clr-orange);
+    margin-bottom: 20px;
+}
+
+#section-2 .service .service__title{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#section-2 .service .horizontal-line {
+    padding:10px 30px;
+    border-bottom: 1px solid var(--clr-gray-text);
+    margin-bottom: 15px;
+}
+
+#section-2 .service .service__description{
+    color: var(--clr-light-gray-text);
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+
+#section-3 .title {
+    color: var(--clr-gray-text);
+    font-weight: 500;
+    font-size: 34px;
+}
+
+#section-3 .subtitle {
+    color: rgb(145, 145, 145);
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+#section-3 .btn_green {
+    color: #fff;
+    background-color: var(--clr-green);
+    padding: 15px 45px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    color: #fff;
+    background-color: var(--clr-dark-gray);
+    padding: 70px 38px;
+}
+
+#section-4 .service__title{
+    font-weight: 300;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+#section-4 .service__description{
+    color: var(--clr-light-gray-text);
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-green);
+    color: rgb(137, 188, 168);
+    padding: 80px 150px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.footer b{
+    color: rgb(193, 210, 207)
+}
