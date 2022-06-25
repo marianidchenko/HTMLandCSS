@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,100&family=Poppins:wght@100;200;400;500;600&display=swap');
+
+html {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 160px;
+    gap: 20px;
+}
+
+.container .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info .title {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.info .paragraphs{
+    font-weight: 400;
+    font-size: 12px;
+    color: #6e6e6e;
+}
+
+.info .p1{
+    margin-bottom: 5px;
+}
+
+.container .img_car {
+    width: 470px;
+    
+}
+
+.feature {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.feature .icon {
+    width: 8%;
+    margin-right: 5px;
+}
+
+.feature .feature__title {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+}
+
+.feature .feature__desc {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6e6e6e;
+}
